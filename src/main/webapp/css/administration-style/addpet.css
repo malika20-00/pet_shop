@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.add {
+  position: absolute;
+  top: 0px;
+  background-color: chocolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.add div {
+  position: relative;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 20px;
+}
+.add form .containner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 600px;
+}
+.add form .normal input {
+  height: 25px;
+  width: 100%;
+}
+#description {
+  width: 100%;
+  min-height: 100px;
+  resize: vertical;
+}
+.add form .choise {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.add form .status {
+  font-size: 20px;
+}
+form .send {
+  width: 100px;
+  margin: auto;
+}
+.send input {
+  height: 30px;
+  width: 100%;
+}
+.containner div {
+  width: 40%;
+}
